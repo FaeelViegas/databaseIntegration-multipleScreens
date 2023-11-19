@@ -72,8 +72,6 @@ public final class TelaCadastro extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
-
         tblCarros.setBackground(new java.awt.Color(102, 102, 102));
         tblCarros.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         tblCarros.setForeground(new java.awt.Color(255, 255, 255));
@@ -119,9 +117,7 @@ public final class TelaCadastro extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("PLACA");
 
-        btnCadastrar.setBackground(new java.awt.Color(255, 255, 255));
         btnCadastrar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        btnCadastrar.setForeground(new java.awt.Color(0, 102, 102));
         btnCadastrar.setText("CADASTRAR");
         btnCadastrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,9 +131,7 @@ public final class TelaCadastro extends javax.swing.JFrame {
             }
         });
 
-        btnDeletar.setBackground(new java.awt.Color(255, 255, 255));
         btnDeletar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnDeletar.setForeground(new java.awt.Color(0, 102, 102));
         btnDeletar.setText("DELETAR");
         btnDeletar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

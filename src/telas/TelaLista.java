@@ -59,8 +59,6 @@ public class TelaLista extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
-
         tblCarros.setBackground(new java.awt.Color(102, 102, 102));
         tblCarros.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
         tblCarros.setForeground(new java.awt.Color(255, 255, 255));
@@ -86,13 +84,10 @@ public class TelaLista extends javax.swing.JFrame {
         }
 
         cbxStatus.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
-        cbxStatus.setForeground(new java.awt.Color(0, 102, 102));
         cbxStatus.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecionar", "Disponível", "Indisponível" }));
         cbxStatus.setToolTipText("");
 
-        btnStatus.setBackground(new java.awt.Color(255, 255, 255));
         btnStatus.setFont(new java.awt.Font("Segoe UI", 1, 11)); // NOI18N
-        btnStatus.setForeground(new java.awt.Color(0, 102, 102));
         btnStatus.setText("ALTERAR STATUS");
         btnStatus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

@@ -35,13 +35,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
-
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/carro (2).png"))); // NOI18N
 
-        btnCadastro.setBackground(new java.awt.Color(255, 255, 255));
         btnCadastro.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnCadastro.setForeground(new java.awt.Color(0, 102, 102));
         btnCadastro.setText("CADASTRAR CARRO");
         btnCadastro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,9 +45,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnLista.setBackground(new java.awt.Color(255, 255, 255));
         btnLista.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        btnLista.setForeground(new java.awt.Color(0, 102, 102));
         btnLista.setText("LISTAR CARROS");
         btnLista.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
